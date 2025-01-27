@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization Form</title>
+    <link rel="stylesheet" href="login-styles.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo" id="logo-image">
+    </div>
+    <div class="bookmark-buttons">
+        <button class="bookmark" id="login-btn">Login</button>
+        <button class="bookmark" id="register-btn">Register</button>
+    </div>
+    <div class="form-container">
+        <form id="auth-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<script src="login-script.js"></script>
+</body>
+</html>
